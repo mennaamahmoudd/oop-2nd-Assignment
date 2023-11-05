@@ -44,16 +44,23 @@ else
 {
 real.erase(real.begin());
 }
+    
 }
+    
 else if (real[0] == '+')
 {
 sign = '+';
 if (real[1] == '.')
 {
+
+    
 real[0] = '0';
 }
 else
 {
+
+
+    
 real.erase(real.begin());
 }
 }
